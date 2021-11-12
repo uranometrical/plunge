@@ -20,7 +20,7 @@ namespace Plunge.Newtonsoft.Profiles
         public LauncherVersion LauncherVersion = new();
 
         /// <summary>
-        ///     GUID-keyed dictionary of <see cref="LauncherProfile"/>s.
+        ///     A (traditionally) GUID-keyed dictionary of <see cref="LauncherProfile"/>s.
         /// </summary>
         [JsonProperty("profiles")]
         public Dictionary<string, LauncherProfile> Profiles = new();

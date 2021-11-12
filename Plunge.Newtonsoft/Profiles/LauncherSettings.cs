@@ -14,7 +14,7 @@ namespace Plunge.Newtonsoft.Profiles
         public bool CrashAssistance;
 
         /// <summary>
-        ///     Enable advanced mode, probably snapshots?
+        ///     Enable advanced mode.
         /// </summary>
         [JsonProperty("enableAdvanced")]
         public bool EnableAdvanced;
@@ -36,6 +36,12 @@ namespace Plunge.Newtonsoft.Profiles
         /// </summary>
         [JsonProperty("enableReleases")]
         public bool EnableReleases;
+
+        /// <summary>
+        ///     Enable snapshot versions.
+        /// </summary>
+        [JsonProperty("enableSnapshots")]
+        public bool EnableSnapshots;
 
         /// <summary>
         ///     Keep the launcher open while the game process is running.

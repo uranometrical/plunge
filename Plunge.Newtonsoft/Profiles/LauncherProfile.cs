@@ -11,6 +11,12 @@ namespace Plunge.Newtonsoft.Profiles
         [JsonProperty("created")]
         public string Created = "";
 
+        /// <summary>
+        ///     The game's launch directory. Not always set.
+        /// </summary>
+        [JsonProperty("gameDir")]
+        public string GameDir = "";
+
         // Can be a traditional name or can be a weird link (base64 I believe?)
         /// <summary>
         ///     The icon. Weird string format.
