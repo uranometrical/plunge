@@ -1,7 +1,9 @@
 ﻿using Newtonsoft.Json;
 using Plunge.Newtonsoft.ProfileVersions;
+using System;
+using System.IO;
 
-string json = File.ReadAllText(Console.ReadLine() ?? "");
+string json = File.ReadAllText(args.Length == 1 ? args[0] : Console.ReadLine() ?? "");
 
 LauncherProfileVersion? version = JsonConvert.DeserializeObject<LauncherProfileVersion>(json);
 
@@ -13,6 +15,10 @@ Console.WriteLine();
 Console.WriteLine();
 Console.WriteLine();
 Console.WriteLine();
-Console.WriteLine(JsonConvert.SerializeObject(version, Formatting.Indented));
+Console.WriteLine(JsonConvert.SerializeObject(version, new JsonSerializerSettings
+{
+    Formatting = Formatting.Indented,
+    NullValueHandling = NullValueHandling.Ignore
+}));
 
 Console.ReadLine();

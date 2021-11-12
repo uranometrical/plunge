@@ -10,34 +10,40 @@ namespace Plunge.Newtonsoft.ProfileVersions
             public string Path = "";
 
             [JsonProperty("sha1")]
-            public string Sha1 = "";
+            public string? Sha1;
 
             [JsonProperty("size")]
-            public int Size;
+            public int? Size;
 
             [JsonProperty("url")]
-            public string Url = "";
+            public string? Url;
         }
 
         [JsonProperty("path")]
-        public string Path = "";
+        public string? Path;
 
         [JsonProperty("sha1")]
-        public string Sha1 = "";
+        public string? Sha1;
 
         [JsonProperty("size")]
-        public int Size;
+        public int? Size;
 
         [JsonProperty("url")]
-        public string Url = "";
+        public string? Url;
 
         [JsonProperty("natives-linux")]
-        public OperatingSystemArtifact NativesLinux = new();
+        public OperatingSystemArtifact? NativesLinux;
 
         [JsonProperty("natives-osx")]
-        public OperatingSystemArtifact NativesOsx = new();
+        public OperatingSystemArtifact? NativesOsx;
 
         [JsonProperty("natives-windows")]
-        public OperatingSystemArtifact NativesWindows = new();
+        public OperatingSystemArtifact? NativesWindows;
+
+        [JsonProperty("natives-windows-32")]
+        public OperatingSystemArtifact? NativesWindows32;
+
+        [JsonProperty("natives-windows-64")]
+        public OperatingSystemArtifact? NativesWindows64;
     }
 }

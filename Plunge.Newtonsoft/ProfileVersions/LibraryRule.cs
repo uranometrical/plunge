@@ -5,9 +5,9 @@ namespace Plunge.Newtonsoft.ProfileVersions
     public class LibraryRule
     {
         [JsonProperty("action")]
-        public string Action = "";
+        public string? Action;
 
         [JsonProperty("os")]
-        public OperatingSystemRule Os = new();
+        public OperatingSystemRule? Os;
     }
 }
