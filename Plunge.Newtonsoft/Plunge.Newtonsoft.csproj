@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <Folder Include="Accounts\" />
+    <Folder Include="ProfileVersions\" />
     <Folder Include="Profiles\" />
   </ItemGroup>
 
