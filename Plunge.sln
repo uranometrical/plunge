@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plunge.Newtonsoft", "Plunge
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plunge.Newtonsoft.Tests", "Plunge.Newtonsoft.Tests\Plunge.Newtonsoft.Tests.csproj", "{493B44A5-2900-4FFF-BAFA-F9A425116768}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plunge.Newtonsoft.HandsOn", "Plunge.Newtonsoft.HandsOn\Plunge.Newtonsoft.HandsOn.csproj", "{53418827-1F69-438C-83F8-964561724E8F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{493B44A5-2900-4FFF-BAFA-F9A425116768}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{493B44A5-2900-4FFF-BAFA-F9A425116768}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{493B44A5-2900-4FFF-BAFA-F9A425116768}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53418827-1F69-438C-83F8-964561724E8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53418827-1F69-438C-83F8-964561724E8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53418827-1F69-438C-83F8-964561724E8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53418827-1F69-438C-83F8-964561724E8F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
