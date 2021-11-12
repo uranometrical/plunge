@@ -15,6 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Accounts\" />
     <Folder Include="Profiles\" />
   </ItemGroup>
 
